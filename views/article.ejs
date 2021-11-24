@@ -1,0 +1,15 @@
+<%- include('header'); -%>
+    <div class="content">
+        <h1><%= products.name %></h1>
+        <ul>
+          <li><p>Reference: <%= products.reference %></p></li>
+          <li><p>Category: <%= products.category %></p></li>
+          <li><p>Supplier: <%= products.supplier %></p></li>
+          <li><p>Price: £<%= products.price %></p></li>
+          <li><p>VAT: £<%= products.vat %></p></li>
+          <li><p>Stock: <%= products.stock %></p></li>
+          <li><p>Critical Stock: <%= products.critical_stock %></p></li>
+        </ul>
+    </div>
+    <br>
+  <%- include('footer'); -%>

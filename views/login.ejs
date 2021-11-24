@@ -1,0 +1,14 @@
+<%- include('header'); -%>
+
+<div class="content">
+  <h1 id="welcome">Login</h1>
+  <form action="/api/login" method="get">
+    <p> Username </p> <input type="text" name="login" required>
+    <p> password </p> <input type="password" name="pwd" required>
+    <p> </p> <input type="submit">
+  </form>
+  <p>Not registered? Click <a href="/register">Here</a> </p> <br>
+  </div>
+
+
+<%- include('footer'); -%>
